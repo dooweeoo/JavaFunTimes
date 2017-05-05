@@ -1,0 +1,15 @@
+// The "DocumentEditor" class.
+import java.awt.*;
+import hsa.Console;
+
+public class DocumentEditor
+{
+    static Console c;           // The output console
+    
+    public static void main (String[] args)
+    {
+        c = new Console ();
+        
+       
+    } // main method
+} // DocumentEditor class
