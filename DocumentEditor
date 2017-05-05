@@ -6,6 +6,17 @@ public class DocumentEditor
 {
     static Console c;           // The output console
     
+    public void title(){
+    c.clear();
+    c.print("",32);
+    c.println("Document  Editor");
+    c.println();
+    }
+    
+    public void mainMenu(){
+        
+    }
+    
     public static void main (String[] args)
     {
         c = new Console ();
